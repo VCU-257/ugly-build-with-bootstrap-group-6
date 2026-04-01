@@ -6,6 +6,8 @@ import Checkout from './pages/Checkout.jsx'
 import OrderConfirmation from './pages/OrderConfirmation.jsx'
 import TopNavbar from './components/TopNavbar.jsx'
 import BottomNavBar from './components/BottomNavBar.jsx'
+
+import Signup from './pages/Signup.jsx'
 //delete this line too remove grids
 import BootstrapGridOverlay from './components/BootstrapGridOverlay.jsx'
 
@@ -23,6 +25,7 @@ export default function App() {
             <Route path="/listing" element={<Listing />} />
             <Route path="/checkout" element={<Checkout />} />
             <Route path="/order-confirmation" element={<OrderConfirmation />} />
+            <Route path="/signup" element={<Signup />} />
           </Routes>
         </main>
         <BottomNavBar />
