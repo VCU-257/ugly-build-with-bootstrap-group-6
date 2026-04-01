@@ -16,7 +16,6 @@ export default function BootstrapGridOverlay() {
     >
       <div className="position-absolute top-0 start-0 w-100 h-100" style={horizontalGridStyle} />
 
-      //puts vertical grid lines
       <div className="container-fluid px-0 h-100 position-relative">
         <div className="row g-0 h-100 mx-0">
           {COLS.map((i) => (

@@ -14,7 +14,6 @@ import BootstrapGridOverlay from './components/BootstrapGridOverlay.jsx'
 export default function App() {
   return (
     <BrowserRouter>
-    //delete this line too remove grids
       <BootstrapGridOverlay />
       <div className="d-flex flex-column min-vh-100">
         <TopNavbar />
