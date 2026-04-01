@@ -6,10 +6,14 @@ import Checkout from './pages/Checkout.jsx'
 import OrderConfirmation from './pages/OrderConfirmation.jsx'
 import TopNavbar from './components/TopNavbar.jsx'
 import BottomNavBar from './components/BottomNavBar.jsx'
+//delete this line too remove grids
+import BootstrapGridOverlay from './components/BootstrapGridOverlay.jsx'
 
 export default function App() {
   return (
     <BrowserRouter>
+    //delete this line too remove grids
+      <BootstrapGridOverlay />
       <div className="d-flex flex-column min-vh-100">
         <TopNavbar />
         <main className="flex-grow-1 container py-4">
