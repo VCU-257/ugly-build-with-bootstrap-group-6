@@ -4,7 +4,7 @@ import Login from './pages/Login.jsx'
 import Listing from './pages/Listing.jsx'
 import Checkout from './pages/Checkout.jsx'
 import OrderConfirmation from './pages/OrderConfirmation.jsx'
-import TopNavbar from './components/NavBar/TopNavbar.jsx'
+import TopNavBar from './components/NavBar/TopNavBar.jsx'
 import BottomNavBar from './components/BottomNavBar.jsx'
 
 import Signup from './pages/Signup.jsx'
@@ -16,7 +16,7 @@ export default function App() {
     <BrowserRouter>
       <BootstrapGridOverlay />
       <div className="d-flex flex-column min-vh-100">
-        <TopNavbar />
+        <TopNavBar />
         <main className="flex-grow-1 container py-4">
           <Routes>
             <Route path="/" element={<Home />} />

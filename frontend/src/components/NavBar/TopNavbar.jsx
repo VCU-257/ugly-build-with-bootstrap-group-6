@@ -7,9 +7,9 @@ import AccountMenu from './AccountMenu.jsx';
 import ReturnsOrders from './ReturnsOrders.jsx';
 import Cart from './Cart.jsx';
 
-export default function TopNavbar() {
+export default function TopNavBar() {
   return (
-    <SectionOutline label="Delete This Later" className="rounded-0 border-top-0 border-start-0 border-end-0">
+    <SectionOutline className="rounded-0 border-top-0 border-start-0 border-end-0">
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           {/* Navbar items */}
