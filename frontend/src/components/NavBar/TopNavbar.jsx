@@ -12,13 +12,9 @@ export default function TopNavbar() {
     <SectionOutline label="Delete This Later" className="rounded-0 border-top-0 border-start-0 border-end-0">
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
-          {/* Brand */}
-          <Link className="navbar-brand" to="/">
-            Art E-commerce
-          </Link>
-
           {/* Navbar items */}
           <div className="navbar-nav flex-row flex-wrap gap-2 gap-lg-3 align-items-center">
+            <Link className="navbar-brand" to="/"> Art.com </Link>
             <AddressSelector />
             <SearchBar />
             <LanguageSelector />
