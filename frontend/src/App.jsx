@@ -14,6 +14,7 @@ import BootstrapGridOverlay from './components/BootstrapGridOverlay.jsx'
 export default function App() {
   return (
     <BrowserRouter>
+      {/* Comment out BootstrapGridOverlay to get rid of boostrap spacing lines */}
       <BootstrapGridOverlay />
       <div className="d-flex flex-column min-vh-100">
         <TopNavBar />
