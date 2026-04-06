@@ -15,7 +15,7 @@ export default function TopNavBar() {
         <div className="container-fluid" id='navBarContainer'>
           {/* Navbar items */}
           <div className="navbar-nav flex-row flex-wrap gap-2 gap-lg-3 align-items-center">
-            <Link className="navbar-brand" to="/"> Art.com </Link>
+            <Link id='companyLogo' className="navbar-brand" to="/"> Art.com </Link>
             <AddressSelector />
             <SearchBar />
             <LanguageSelector />

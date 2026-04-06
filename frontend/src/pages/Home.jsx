@@ -9,6 +9,7 @@ export default function Home() {
       <SectionOutline label="Home page" />
 
       <div>
+        {/* This is where the ListingCards component will go instead of placeholders */}
         <h2 className="h6 text-muted mb-3">Other components (placeholders)</h2>
         <div className="row g-3">
           <div className="col-md-4">

@@ -1,5 +1,5 @@
-// import SectionOutline from './SectionOutline.jsx'
+import SectionOutline from './SectionOutline.jsx'
 
-// export default function CheckoutPopup() {
-//   return <SectionOutline label="CheckoutPopup" />
-// }
+export default function CheckoutPopup() {
+  return <SectionOutline label="CheckoutPopup" />
+}

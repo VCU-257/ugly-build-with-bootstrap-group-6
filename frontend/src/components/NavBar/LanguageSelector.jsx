@@ -56,6 +56,10 @@ export default function LanguageSelector() {
         className="btn btn-outline-secondary d-flex align-items-center gap-1"
         onClick={toggleDropdown}
         type="button"
+        style={{
+            color:'white',
+            border:'none'
+        }}
       >
         {languages.find((l) => l.code === language)?.flag} {language}
       </button>
