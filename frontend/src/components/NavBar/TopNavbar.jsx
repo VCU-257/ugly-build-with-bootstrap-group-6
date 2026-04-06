@@ -12,17 +12,27 @@ export default function TopNavBar() {
   return (
     <SectionOutline className="rounded-0 border-top-0 border-start-0 border-end-0">
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
-        <div className="container-fluid" id='navBarContainer'>
-          {/* Navbar items */}
-          <div className="navbar-nav flex-row flex-wrap gap-2 gap-lg-3 align-items-center">
-            <Link id='companyLogo' className="navbar-brand" to="/"> Art.com </Link>
+        <div className="container-fluid" id="navBarContainer">
+
+          {/* LEFT: logo + address */}
+          <div className="d-flex align-items-center gap-2" style={{ flexShrink: 0 }}>
+            <Link id="companyLogo" className="navbar-brand" to="/"> Art.com </Link>
             <AddressSelector />
+          </div>
+
+          {/* CENTER: search bar */}
+          <div style={{ flex: 1, minWidth: 0 }} className="px-3">
             <SearchBar />
+          </div>
+
+          {/* RIGHT: language + account + returns + cart */}
+          <div className="d-flex align-items-center gap-2" style={{ flexShrink: 0 }}>
             <LanguageSelector />
             <AccountMenu />
             <ReturnsOrders />
             <Cart />
           </div>
+
         </div>
       </nav>
     </SectionOutline>

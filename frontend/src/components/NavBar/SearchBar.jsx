@@ -1,12 +1,12 @@
 export default function SearchBar() {
   return (
-    <div className="flex-grow-1 d-flex ms-2 me-2" style={{ minWidth: '200px' }}>
-      <div className="input-group overflow-hidden rounded-2">
+    <div className="d-flex w-100" style={{ minWidth: '200px' }}>
+      <div className="input-group overflow-hidden rounded-2 w-100">
         
         {/* Dropdown */}
         <select 
           className="form-select bg-light border-0 d-none d-md-block" 
-          style={{  maxWidth: '65px', fontSize: '13px', cursor: 'pointer' }}
+          style={{ maxWidth: '65px', fontSize: '13px', cursor: 'pointer' }}
         >
           <option>All</option>
           <option>Art</option>
@@ -21,13 +21,12 @@ export default function SearchBar() {
           style={{ height: '40px', boxShadow: 'none' }}
         />
 
-        {/* Search Button*/}
+        {/* Search Button */}
         <button 
-          className="btn border-0 d-flex align-items-center justify-content-center" 
+          className="btn border-0 d-flex align-items-center" 
           type="button"
           style={{ backgroundColor: '#febd69', padding: '0 15px' }}
         >
-          {/* Icon */}
           <span style={{ fontSize: '20px', fontWeight: 'bold' }}>🔍</span>
         </button>
         
