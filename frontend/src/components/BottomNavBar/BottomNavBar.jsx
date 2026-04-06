@@ -1,4 +1,4 @@
-import SectionOutline from './SectionOutline.jsx'
+import SectionOutline from '../SectionOutline.jsx'
 
 export default function BottomNavBar() {
   return (

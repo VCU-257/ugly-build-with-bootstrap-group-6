@@ -5,7 +5,7 @@ import Listing from './pages/Listing.jsx'
 import Checkout from './pages/Checkout.jsx'
 import OrderConfirmation from './pages/OrderConfirmation.jsx'
 import TopNavBar from './components/NavBar/TopNavBar.jsx'
-import BottomNavBar from './components/BottomNavBar.jsx'
+import BottomNavBar from './components/BottomNavBar/BottomNavBar.jsx'
 
 import Signup from './pages/Signup.jsx'
 //delete this line too remove grids
