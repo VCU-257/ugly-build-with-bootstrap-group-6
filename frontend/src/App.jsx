@@ -8,14 +8,10 @@ import TopNavBar from './components/NavBar/TopNavBar.jsx'
 import BottomNavBar from './components/BottomNavBar/BottomNavBar.jsx'
 
 import Signup from './pages/Signup.jsx'
-//delete this line too remove grids
-import BootstrapGridOverlay from './components/BootstrapGridOverlay.jsx'
 
 export default function App() {
   return (
     <BrowserRouter>
-      {/* Comment out BootstrapGridOverlay to get rid of boostrap spacing lines */}
-      <BootstrapGridOverlay />
       <div className="d-flex flex-column min-vh-100">
         <TopNavBar />
         <main className="flex-grow-1 container py-4">
