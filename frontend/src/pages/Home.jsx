@@ -1,7 +1,7 @@
 import SectionOutline from '../components/SectionOutline.jsx'
-import CartPopup from '../components/CartPopup.jsx'
-import CheckoutPopup from '../components/CheckoutPopup.jsx'
-import ChangeAdress from '../components/ChangeAdress.jsx'
+// import CartPopup from '../components/CartPopup.jsx'
+// import CheckoutPopup from '../components/CheckoutPopup.jsx'
+// import ChangeAdress from '../components/ChangeAdress.jsx'
 
 export default function Home() {
   return (
@@ -12,13 +12,13 @@ export default function Home() {
         <h2 className="h6 text-muted mb-3">Other components (placeholders)</h2>
         <div className="row g-3">
           <div className="col-md-4">
-            <CartPopup />
+            <div>Placeholder</div>
           </div>
           <div className="col-md-4">
-            <CheckoutPopup />
+            <div>Placeholder</div>
           </div>
           <div className="col-md-4">
-            <ChangeAdress />
+            <div>Placeholder</div>
           </div>
         </div>
       </div>

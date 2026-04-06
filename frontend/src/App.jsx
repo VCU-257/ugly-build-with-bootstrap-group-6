@@ -4,7 +4,7 @@ import Login from './pages/Login.jsx'
 import Listing from './pages/Listing.jsx'
 import Checkout from './pages/Checkout.jsx'
 import OrderConfirmation from './pages/OrderConfirmation.jsx'
-import TopNavbar from './components/TopNavbar.jsx'
+import TopNavbar from './components/NavBar/TopNavbar.jsx'
 import BottomNavBar from './components/BottomNavBar.jsx'
 
 import Signup from './pages/Signup.jsx'
