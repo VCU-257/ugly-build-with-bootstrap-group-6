@@ -10,8 +10,9 @@ export default function Home() {
 
       <div>
         {/* This is where the ListingCards component will go instead of placeholders */}
-        <h2 className="h6 text-muted mb-3">Other components (placeholders)</h2>
+        <h2 className="h6 text-muted mb-3">Listing Cards Will Display Art Here</h2>
         <div className="row g-3">
+          {/* Replace divs with ListingCards */}
           <div className="col-md-4">
             <div>Placeholder</div>
           </div>
