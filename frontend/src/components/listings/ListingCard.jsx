@@ -1,10 +1,12 @@
+import { Link } from 'react-router-dom';
+
 /**
  * Wireframe listing card (no navigation or interactive behavior yet).
  * @param {{ listing: { id: string, title: string, artist?: string, imageUrl: string, imageAlt?: string } }} props
  */
 export default function ListingCard({ listing }) {
   return (
-    <article className="card h-100 border-0 shadow-sm position-relative overflow-hidden rounded">
+    <Link to={`/listing/${listing.id}`} className="card h-100 border-0 shadow-sm position-relative overflow-hidden rounded">
       <div className="ratio ratio-4x3 bg-light">
         <img
           src={listing.imageUrl}
@@ -32,6 +34,6 @@ export default function ListingCard({ listing }) {
       </div>
       {/* Wireframe: visual full-card hit target only; no real link yet */}
       <span className="stretched-link pe-none" aria-hidden="true" />
-    </article>
+    </Link>
   )
 }
