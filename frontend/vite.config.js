@@ -6,7 +6,7 @@ import { fileURLToPath } from 'url'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 //github pages path
-const pagesBase = '/ugly-build-with-bootstrap-group-6/'
+const pagesBase = 'VCU-257/ugly-build-with-bootstrap-group-6/'
 
 export default defineConfig(({ mode }) => ({
   base: mode === 'production' ? pagesBase : '/',

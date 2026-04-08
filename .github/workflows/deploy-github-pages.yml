@@ -1,8 +1,6 @@
-# Deploy Vite + React app in /frontend to GitHub Pages.
-#
+# Deploy Vite app in /frontend to GitHub Pages.
 # After pushing this file, set:
 #   Repo → Settings → Pages → Build and deployment → Source: "GitHub Actions"
-#
 # Site URL: https://VCU-257.github.io/ugly-build-with-bootstrap-group-6/
 # If your org or repo name differs, update `pagesBase` in frontend/vite.config.js
 
@@ -10,7 +8,10 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    # Only pushes to these branches trigger a deploy.
+    branches:
+      - fix/github-pages
+
   workflow_dispatch:
 
 permissions:
