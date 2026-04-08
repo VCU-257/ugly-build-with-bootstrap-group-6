@@ -36,7 +36,7 @@ function Signup() {
           </form>
 
           <p className="text-center mt-3">
-            Already have an account? <a href="/login">Login</a>
+            Already have an account? <Link to="/login">Login</Link>
           </p>
 
         </div>

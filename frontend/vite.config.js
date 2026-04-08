@@ -5,7 +5,11 @@ import { fileURLToPath } from 'url'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
-export default defineConfig({
+//github pages path
+const pagesBase = '/ugly-build-with-bootstrap-group-6/'
+
+export default defineConfig(({ mode }) => ({
+  base: mode === 'production' ? pagesBase : '/',
   plugins: [
     react({
       include: '**/*.{jsx,js}',
@@ -16,4 +20,4 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
-})
+}))

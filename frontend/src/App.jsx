@@ -8,9 +8,12 @@ import OrderConfirmation from './pages/OrderConfirmation.jsx'
 import TopNavbar from './components/TopNavbar.jsx'
 import BottomNavBar from './components/BottomNavBar.jsx'
 
+const routerBasename =
+  import.meta.env.BASE_URL === '/' ? undefined : import.meta.env.BASE_URL.replace(/\/$/, '')
+
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={routerBasename}>
       <div className="d-flex flex-column min-vh-100">
         <TopNavbar />
         <main className="flex-grow-1 container py-4">
