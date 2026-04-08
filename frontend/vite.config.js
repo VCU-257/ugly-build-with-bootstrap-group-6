@@ -6,7 +6,7 @@ import { fileURLToPath } from 'url'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 export default defineConfig({
-  base: '/ugly-build-with-bootstrap-group-6/frontend', 
+  base: '/ugly-build-with-bootstrap-group-6/', 
   plugins: [
     react({
       include: '**/*.{jsx,js}',
