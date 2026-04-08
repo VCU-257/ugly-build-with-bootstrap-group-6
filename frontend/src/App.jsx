@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home.jsx'
 import Login from './pages/Login.jsx'
+import Signup from './pages/Signup.jsx'
 import Listing from './pages/Listing.jsx'
 import Checkout from './pages/Checkout.jsx'
 import OrderConfirmation from './pages/OrderConfirmation.jsx'
@@ -16,6 +17,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/signup" element={<Signup />} />
             <Route path="/listing" element={<Listing />} />
             <Route path="/checkout" element={<Checkout />} />
             <Route path="/order-confirmation" element={<OrderConfirmation />} />

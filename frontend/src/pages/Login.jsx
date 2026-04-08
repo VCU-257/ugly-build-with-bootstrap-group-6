@@ -1,5 +1,51 @@
-import SectionOutline from '../components/SectionOutline.jsx'
+import React from "react";
 
-export default function Login() {
-  return <SectionOutline label="Login page" />
+function Login() {
+  return (
+    <div className="container mt-5">
+      <div className="row">
+        <div className="col-md-6 offset-md-3">
+          <h2 className="mb-4">Login</h2>
+
+          <form>
+            <div className="mb-3">
+              <label htmlFor="username" className="form-label">
+                Username
+              </label>
+              <input
+                type="text"
+                id="username"
+                className="form-control"
+                placeholder="Enter username"
+              />
+            </div>
+
+            <div className="mb-3">
+              <label htmlFor="password" className="form-label">
+                Password
+              </label>
+              <input
+                type="password"
+                id="password"
+                className="form-control"
+                placeholder="Enter password"
+              />
+            </div>
+
+            <div className="d-flex gap-2">
+              <button type="submit" className="btn btn-primary">
+                Login
+              </button>
+
+              <a href="/signup" className="btn btn-secondary">
+                Sign Up
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  );
 }
+
+export default Login;
