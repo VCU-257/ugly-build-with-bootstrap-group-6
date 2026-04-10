@@ -45,6 +45,9 @@ export default function TopNavbar() {
             <NavLink className="nav-link text-nowrap" to="/checkout">
               Checkout
             </NavLink>
+            <NavLink className="nav-link" to="/cart">
+              Cart
+            </NavLink>
           </div>
         </div>
       </nav>
