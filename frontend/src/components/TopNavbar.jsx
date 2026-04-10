@@ -39,15 +39,18 @@ export default function TopNavbar() {
             <NavLink className="nav-link text-nowrap" to="/login">
               Login
             </NavLink>
-            <NavLink className="nav-link py-2 px-2 d-flex align-items-center" to="/checkout" aria-label="Cart">
-              <i className="bi bi-cart3 fs-5" aria-hidden="true" />
-            </NavLink>
+            
             <NavLink className="nav-link text-nowrap" to="/checkout">
               Checkout
             </NavLink>
-            <NavLink className="nav-link" to="/cart">
-              Cart
+
+            <NavLink className="nav-link py-2 px-2 d-flex align-items-center" to="/cart" aria-label="Cart">
+              <i className="bi bi-cart3 fs-5" aria-hidden="true"  />
+              &nbsp; Cart
             </NavLink>
+            {/* <NavLink className="nav-link" to="/cart">
+              Cart
+            </NavLink> */}
           </div>
         </div>
       </nav>
