@@ -34,10 +34,9 @@ function Login() {
             </div>
 
             <div className="d-flex gap-2">
-              <button type="submit" className="btn btn-primary">
+              <Link to="/" className="btn btn-primary">
                 Login
-              </button>
-
+              </Link>
               <Link to="/signup" className="btn btn-secondary">
                 Sign Up
               </Link>

@@ -1,4 +1,5 @@
 import SectionOutline from '../components/SectionOutline.jsx'
+import { Link } from 'react-router-dom';
 
 export default function OrderConfirmation() {
   return (
@@ -31,7 +32,9 @@ export default function OrderConfirmation() {
                 </li>
                 </ul>
               </div>
-          <a class="btn btn-primary" href="/" role="button">Continue Shopping</a>
+          <Link to="/" className="btn btn-primary">
+            Continue Shopping
+          </Link>
 
           </div>
       </SectionOutline>
