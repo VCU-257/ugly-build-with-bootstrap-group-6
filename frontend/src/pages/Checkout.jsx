@@ -1,4 +1,5 @@
 import SectionOutline from '../components/SectionOutline.jsx'
+import OrderConfirmation from './OrderConfirmation.jsx'
 export default function Checkout() {
   return (
       <SectionOutline label="Checkout">
@@ -35,7 +36,7 @@ export default function Checkout() {
                 </li>
                 </ul>
               </div>
-          <a class="btn btn-primary" href="/order-confirmation" role="button">Checkout</a>
+          <a class="btn btn-primary" href={OrderConfirmation} role="button">Checkout</a>
 
           </div>
 

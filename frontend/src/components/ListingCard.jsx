@@ -1,6 +1,4 @@
-/**
- * Bootstrap card placeholder — layout only, no fill colors or type fiddling.
- */
+
 import { Link } from 'react-router-dom';
 export default function ListingCard() {
   return (
