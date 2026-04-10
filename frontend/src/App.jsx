@@ -7,6 +7,7 @@ import Checkout from './pages/Checkout.jsx'
 import OrderConfirmation from './pages/OrderConfirmation.jsx'
 import TopNavbar from './components/TopNavbar.jsx'
 import BottomNavBar from './components/BottomNavBar.jsx'
+import Cart from './pages/Cart.jsx'
 
 const routerBasename =
   import.meta.env.BASE_URL === '/' ? undefined : import.meta.env.BASE_URL.replace(/\/$/, '')
@@ -24,6 +25,7 @@ export default function App() {
             <Route path="/listing" element={<Listing />} />
             <Route path="/checkout" element={<Checkout />} />
             <Route path="/order-confirmation" element={<OrderConfirmation />} />
+            <Route path="/cart" element={<Cart />} />
           </Routes>
         </main>
         <BottomNavBar />
