@@ -35,7 +35,7 @@ export default function Listing() {
               Add to Cart
             </button>
             <button className="btn btn-secondary">
-              Favorite
+              Save for Later
             </button>
           </div>
 

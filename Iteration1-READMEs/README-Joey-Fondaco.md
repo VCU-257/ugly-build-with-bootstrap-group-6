@@ -3,7 +3,7 @@
 ## 1. My Assigned Work
 *List the specific HTML files, screens, or components you built based on your team's assignments in Table 3.*
 
-I built the Login and Signup Pages.
+I built the Login, Signup, Orders, and Cart Pages as well as made changes to several other components(mostly our nav bar) to make sure they better matched our wireframe designs
 
 
 ## 2. Bootstrap Implementation
@@ -17,7 +17,12 @@ Instead of a card I used a container to center the form, but the rest was as pla
 ## 3. Technical Challenges & Solutions
 [cite_start]*Look back at Table 4: Technical Risks. Did you build any of those risky components? How did you solve the challenge? If you didn't face those specific risks, what was the hardest part of your assigned work?*
 
-This first bootstrap version we kept pretty simple so there werent very many challenges. My part was just to build 2 forms and help everyone else with their parts as needed.
+## 3. Technical Challenges & Solutions
+[cite_start]*Look back at Table 4: Technical Risks. Did you build any of those risky components? How did you solve the challenge? If you didn't face those specific risks, what was the hardest part of your assigned work?*
+
+This initial Bootstrap version of the project was kept relatively simple, so we did not encounter many significant technical challenges overall. My assigned task was to build the Login/Signup pages, and I did not experience any major issues when creating the forms and buttons. I also built cart page, but I did not run into the sizing/layout challenges that some of my group members mentioned we might encounter in the previous activity.
+
+The most challenging part of my work was managing routing/navigation. As I added and adjusted elements in the navigation bar, I had to repeatedly ensure that all page links were properly imported, remained correctly connected, and that navigation worked between the different pages.
 
 ## 4. AI / LLM Usage
 *Did you use an AI tool to help write or debug your code?*
