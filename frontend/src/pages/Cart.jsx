@@ -30,9 +30,11 @@ export default function Cart() {
         </div>
       </div>
 
-      <Link to="/checkout" className="btn btn-primary mb-5">
-        Proceed to Checkout
-      </Link>
+      <div className="d-flex justify-content-end">
+        <Link to="/checkout" className="btn btn-primary mb-5">
+            Proceed to Checkout
+        </Link>
+      </div>
 
       {/* SAVED FOR LATER */}
       <h3 className="mb-3">Saved for Later</h3>
@@ -53,7 +55,7 @@ export default function Cart() {
         </div>
 
         <div className="col-md-3 d-flex flex-column justify-content-center">
-          <button className="btn btn-primary">
+          <button className="btn btn-secondary">
             Move to Cart
           </button>
         </div>

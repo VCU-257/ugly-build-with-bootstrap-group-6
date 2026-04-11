@@ -3,7 +3,7 @@
 ## 1. My Assigned Work
 *List the specific HTML files, screens, or components you built based on your team's assignments in Table 3.*
 
-I built the Login and Signup Pages.
+I built the Login and Signup Pages as well as made changes to several other components to make sure they better matched our wireframe designs
 
 
 ## 2. Bootstrap Implementation
